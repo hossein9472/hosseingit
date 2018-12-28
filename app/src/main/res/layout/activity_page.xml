@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PageActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar_chapter"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.6"
+    ></android.support.v7.widget.Toolbar>
+
+
+
+<TextView
+        android:id="@+id/tv_section_title"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.6"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        />
+    <ScrollView
+        android:id="@+id/scr_view_page"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_section_text"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+
+            />
+
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        />
+
+    <TextView
+        android:id="@+id/tv_pagenumber"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:id="@+id/btn_prev"/>
+
+</LinearLayout>
+
+</LinearLayout>

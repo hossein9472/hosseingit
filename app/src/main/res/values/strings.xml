@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">NewBook</string>
+    <string name="pages">صفحه</string>
+    <string name="from">از</string>
+    <string name="search_in_text">متن</string>
+    <string name="search_in_chapters_sections">عناوین</string>
+    <string name="search_chapter_title">فصل ها</string>
+    <string name="search_section_title">بخش ها</string>
+    <string name="search_in">جستحو در :</string>
+    <string name="btn_contents">فهرست</string>
+    <string name="btn_search">جستجو</string>
+    <string name="title_bookmark">علاقه مندی ها</string>
+    <string name="are_you_sure">آیا مطمئنی میخوای حذف کنی؟</string>
+    <string name="ok_to_delete">بله،حتما!!!</string>
+    <string name="cancel">نه،اشتباه شد!</string>
+    <string name="tv_setting">این یک نمونه از اعمال تنظیمات می باشد</string>
+    تنظیمات فونت
+    حالت مطالعه
+    فاصله خطوط
+    <string name="select_font">انتخاب فونت</string>
+    <string name="study_mood">حالت مطالعه</string>
+    <string name="line_gaps">فاصله خطوط</string>
+    <string name="day_mood">حالت روز</string>
+    <string name="night_mood">حالت شب</string>
+    <string name="font_size">اندازه فونت</string>
+
+</resources>

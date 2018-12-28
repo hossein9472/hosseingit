@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+
+    <TextView
+        android:id="@+id/tv_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+android:text="@string/tv_setting"
+
+        />
+    <TextView
+        android:id="@+id/select_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tv_setting"
+        android:text="@string/select_font"
+
+        />
+    <Spinner
+        android:id="@+id/sp_font"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/select_font"
+        android:layout_marginTop="5dp"
+
+
+
+        ></Spinner>
+
+
+    <TextView
+        android:id="@+id/tv_line_spase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/sp_font"
+        android:text="@string/line_gaps"
+
+
+
+        />
+    <SeekBar
+        android:id="@+id/sk_line_spase"
+        android:layout_below="@id/tv_line_spase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+    <TextView
+
+        android:id="@+id/study_mood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/sk_line_spase"
+        android:text="@string/study_mood"
+
+
+
+        />
+<RadioGroup
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/study_mood"
+    >
+
+
+
+
+</RadioGroup>
+
+
+</RelativeLayout>

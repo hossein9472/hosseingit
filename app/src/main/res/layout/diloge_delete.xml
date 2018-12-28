@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/are_you_sure"/>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:text="@string/cancel"
+        android:layout_weight="1"
+        android:textSize="20sp"
+       android:textColor="@color/navy"
+        android:id="@+id/btn_cancel"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:text="@string/ok_to_delete"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textColor="@color/navy"
+        android:id="@+id/btn_ok"/>
+
+</LinearLayout>
+
+</LinearLayout>
